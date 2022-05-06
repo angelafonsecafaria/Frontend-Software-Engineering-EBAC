@@ -1,0 +1,53 @@
+
+
+table {
+	border: 1px solid;
+	background: #ffffff;
+	width: 100%;
+	min-width: 800px
+}
+
+table thead {
+    background: deeppink;
+	color: white;
+}
+
+table tbody tr:nth-child(odd) {
+	background: pink;
+}
+
+table tbody tr:hover {
+	background: pink;
+}
+
+table th,
+table td {
+	padding: 1rem;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table tr:first-child {
+	font-weight: bold;
+}
+
+table tr td:first-child {
+	text-align: center;
+	font-weight: bold;
+}
+
+.table-container {
+	padding: 2rem 1rem;
+	overflow: hidden;
+    overflow-x: auto;
+    clear: both;
+    width: 100%;
+}
+
+.table-container tfoot {
+	background: #EEEEEE;
+}
+
+.table-container tfoot td {
+	font-weight: bold;
+}
